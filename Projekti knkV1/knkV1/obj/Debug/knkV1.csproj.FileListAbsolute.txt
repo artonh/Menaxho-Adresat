@@ -1,0 +1,48 @@
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\bin\Debug\MenaxhimiIAdresave.mdf
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\bin\Debug\MenaxhimiIAdresave_log.ldf
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\bin\Debug\knkV1.exe.config
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\bin\Debug\knkV1.exe
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\bin\Debug\knkV1.pdb
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.csprojResolveAssemblyReference.cache
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.Dergo_Email.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmFshij.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmKerko.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmMenaxhoAdresat.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmModifiko.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmRegjistroAdresa.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmNdihma.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.Kycja.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmStatistika.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.Lang.langres.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.Lang.langres.al.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.Properties.Resources.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmRegjistroPerdorues.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmRrethNesh.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.frmShtoAdmin.resources
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.csproj.GenerateResource.Cache
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.exe
+D:\Fakulteti - mesime\viti II\Semestri IV\Komunikimi Njeri Kompjuter\Ushtrime\KNK_Projekti_MenaxhoAdresat [720779]\KnK Projekti\Projekti knkV1\knkV1\obj\Debug\knkV1.pdb
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\bin\Debug\knkV1.exe.config
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.exe
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.pdb
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\bin\Debug\MenaxhimiIAdresave.mdf
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\bin\Debug\MenaxhimiIAdresave_log.ldf
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\bin\Debug\knkV1.exe
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\bin\Debug\knkV1.pdb
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.csprojResolveAssemblyReference.cache
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.Dergo_Email.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmFshij.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmKerko.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmMenaxhoAdresat.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmModifiko.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmRegjistroAdresa.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmNdihma.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.Kycja.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmStatistika.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.Lang.langres.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.Lang.langres.al.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.Properties.Resources.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmRegjistroPerdorues.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmRrethNesh.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.frmShtoAdmin.resources
+C:\Users\CCKS\Desktop\Menaxho-Adresat\Projekti knkV1\knkV1\obj\Debug\knkV1.csproj.GenerateResource.Cache

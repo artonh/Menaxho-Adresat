@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B36CDAB6-D278-4367-884C-B3A638B405A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>knkV1</RootNamespace>
+    <AssemblyName>knkV1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dergo_Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dergo_Email.designer.cs">
+      <DependentUpon>Dergo_Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFshij.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFshij.Designer.cs">
+      <DependentUpon>frmFshij.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKerko.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKerko.Designer.cs">
+      <DependentUpon>frmKerko.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenaxhoAdresat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenaxhoAdresat.Designer.cs">
+      <DependentUpon>frmMenaxhoAdresat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifiko.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifiko.Designer.cs">
+      <DependentUpon>frmModifiko.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegjistroAdresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegjistroAdresa.Designer.cs">
+      <DependentUpon>frmRegjistroAdresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKontakt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKontakt.designer.cs">
+      <DependentUpon>frmKontakt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatistika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatistika.Designer.cs">
+      <DependentUpon>frmStatistika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lang\langres.Designer.cs">
+      <DependentUpon>langres.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Lang\langres.al.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>langres.al.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LidhjaMeDB.cs" />
+    <Compile Include="frmNdihma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNdihma.Designer.cs">
+      <DependentUpon>frmNdihma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenaxhimiIAdresaveDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MenaxhimiIAdresaveDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Parametrat.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegjistroPerdorues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegjistroPerdorues.Designer.cs">
+      <DependentUpon>frmRegjistroPerdorues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRrethNesh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRrethNesh.Designer.cs">
+      <DependentUpon>frmRrethNesh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShtoAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShtoAdmin.Designer.cs">
+      <DependentUpon>frmShtoAdmin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dergo_Email.resx">
+      <DependentUpon>Dergo_Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFshij.resx">
+      <DependentUpon>frmFshij.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKerko.resx">
+      <DependentUpon>frmKerko.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenaxhoAdresat.resx">
+      <DependentUpon>frmMenaxhoAdresat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifiko.resx">
+      <DependentUpon>frmModifiko.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegjistroAdresa.resx">
+      <DependentUpon>frmRegjistroAdresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNdihma.resx">
+      <DependentUpon>frmNdihma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKontakt.resx">
+      <DependentUpon>frmKontakt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatistika.resx">
+      <DependentUpon>frmStatistika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lang\langres.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>langres.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lang\langres.al.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>langres.al.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegjistroPerdorues.resx">
+      <DependentUpon>frmRegjistroPerdorues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRrethNesh.resx">
+      <DependentUpon>frmRrethNesh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShtoAdmin.resx">
+      <DependentUpon>frmShtoAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="MenaxhimiIAdresaveDataSet.xsc">
+      <DependentUpon>MenaxhimiIAdresaveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MenaxhimiIAdresaveDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MenaxhimiIAdresaveDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MenaxhimiIAdresaveDataSet.xss">
+      <DependentUpon>MenaxhimiIAdresaveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1461887519_05_phonebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kerko.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modifiko.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1461887519_05_phonebook1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kerko1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1461887519_05_phonebook2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modifiko1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shqip.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\English.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail-icon.png" />
+    <None Include="Resources\modifiko -.png" />
+    <None Include="Resources\back4 - Copy1.jpg" />
+    <None Include="Resources\back4 - Copy.jpg" />
+    <None Include="Resources\back4.jpg" />
+    <None Include="Resources\back31.jpg" />
+    <None Include="Resources\back3.jpg" />
+    <None Include="Resources\1463875519_shutdown.png" />
+    <None Include="Resources\1463875526_exit.png" />
+    <None Include="Resources\1463917402_help_forum-lb.png" />
+    <None Include="Resources\1463917220_help-browser.png" />
+    <None Include="Resources\1463917704_administrator_add.png" />
+    <None Include="Resources\fshij.png" />
+    <None Include="Resources\fshij1.png" />
+    <None Include="Resources\Kerko -.png" />
+    <None Include="Resources\Network-time-icon.png" />
+    <None Include="Resources\1461084263_Forward.ico" />
+    <None Include="Resources\Ampeross-Qetto-2-Settings.ico" />
+    <None Include="Resources\Aroche-Delta-Help.ico" />
+    <None Include="Resources\Gianni-Polito-Colobrush-Brush.ico" />
+    <None Include="Resources\perfundo.ico" />
+    <None Include="Resources\1463918081_gpsmapicons02.png" />
+    <None Include="Resources\back1.png" />
+    <None Include="Resources\language11.png" />
+    <None Include="Resources\Save-icon.png" />
+    <None Include="Resources\cancelcon.png" />
+    <None Include="Resources\Reset.png" />
+    <None Include="Resources\gray-gradient-wallpaper-1.jpg" />
+    <None Include="Resources\dark-purple-vertical-stripes-background.jpg" />
+    <None Include="Resources\f9QW2NW.jpg" />
+    <None Include="Resources\next.png" />
+    <None Include="Resources\ah.jpg" />
+    <None Include="Resources\ahh.jpg" />
+    <None Include="Resources\ar1.png" />
+    <None Include="Resources\ar11.png" />
+    <None Include="Resources\gk3.png" />
+    <None Include="Resources\mk4.png" />
+    <None Include="Resources\au2.png" />
+    <None Include="Resources\back5.jpg" />
+    <Content Include="MenaxhimiIAdresave.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MenaxhimiIAdresave_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>MenaxhimiIAdresave.mdf</DependentUpon>
+    </Content>
+    <Content Include="Resources\_13059351_10207546675119341_1417463752_n.jpg" />
+    <Content Include="Resources\language.png" />
+    <None Include="Resources\language1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

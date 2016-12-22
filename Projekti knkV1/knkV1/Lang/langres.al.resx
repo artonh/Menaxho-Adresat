@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Anulo" xml:space="preserve">
+    <value>Anulo</value>
+  </data>
+  <data name="Bashko" xml:space="preserve">
+    <value>Bashko:</value>
+  </data>
+  <data name="btnGjuha" xml:space="preserve">
+    <value>Gjuha</value>
+  </data>
+  <data name="btnKontakt" xml:space="preserve">
+    <value>Kontakto</value>
+  </data>
+  <data name="btnLog" xml:space="preserve">
+    <value>Kycu</value>
+  </data>
+  <data name="btnNdihma" xml:space="preserve">
+    <value>Ndihma</value>
+  </data>
+  <data name="btnRrethNesh" xml:space="preserve">
+    <value>Rreth Nesh</value>
+  </data>
+  <data name="btnShtoAdmin" xml:space="preserve">
+    <value>Shto ADM</value>
+  </data>
+  <data name="Datelindja" xml:space="preserve">
+    <value>Datelindja</value>
+  </data>
+  <data name="Emri" xml:space="preserve">
+    <value>Emri</value>
+  </data>
+  <data name="Femer" xml:space="preserve">
+    <value>Femer</value>
+  </data>
+  <data name="FiltroSipasKomunes" xml:space="preserve">
+    <value>Filtro sipas Komunes</value>
+  </data>
+  <data name="FiltroSipasPozites" xml:space="preserve">
+    <value>Filtro sipas pozites</value>
+  </data>
+  <data name="FiltroSipasRruges" xml:space="preserve">
+    <value>Filtro sipas rruges</value>
+  </data>
+  <data name="FiltroSipasVendbanimi" xml:space="preserve">
+    <value>Filtro sipas nr. vendbanimit</value>
+  </data>
+  <data name="FiltroSipasVendit" xml:space="preserve">
+    <value>Filtro sipas vendit</value>
+  </data>
+  <data name="frmMenaxhoAdresat" xml:space="preserve">
+    <value>Sistemi per menaxhimin e adresave</value>
+  </data>
+  <data name="Gjinia" xml:space="preserve">
+    <value>Gjinia</value>
+  </data>
+  <data name="Komuna" xml:space="preserve">
+    <value>Komuna</value>
+  </data>
+  <data name="Konfirmo" xml:space="preserve">
+    <value>Konfirmo</value>
+  </data>
+  <data name="kthehu" xml:space="preserve">
+    <value>Kthehu</value>
+  </data>
+  <data name="lblFshij" xml:space="preserve">
+    <value>Fshij</value>
+  </data>
+  <data name="lblInfopersonale" xml:space="preserve">
+    <value>Aplikacion per dergimin e E-mail me ane te aplikacionit te punuar ne C#</value>
+  </data>
+  <data name="lblKerko" xml:space="preserve">
+    <value>Kerko</value>
+  </data>
+  <data name="lblModifiko" xml:space="preserve">
+    <value>Modifiko</value>
+  </data>
+  <data name="lblRegjistro" xml:space="preserve">
+    <value>Regjistro</value>
+  </data>
+  <data name="llRegjistrohu" xml:space="preserve">
+    <value>Regjistrohu</value>
+  </data>
+  <data name="Mashkull" xml:space="preserve">
+    <value>Mashkull</value>
+  </data>
+  <data name="Mbiemri" xml:space="preserve">
+    <value>Mbiemri</value>
+  </data>
+  <data name="Mesazhi" xml:space="preserve">
+    <value>Mesazhi:</value>
+  </data>
+  <data name="ModifikoAdresen" xml:space="preserve">
+    <value>Modifiko adresen</value>
+  </data>
+  <data name="Nga" xml:space="preserve">
+    <value>Nga:</value>
+  </data>
+  <data name="nrVend" xml:space="preserve">
+    <value>Nr Vendbanimi</value>
+  </data>
+  <data name="Paraqit" xml:space="preserve">
+    <value>Paraqit te gjitha</value>
+  </data>
+  <data name="pass" xml:space="preserve">
+    <value>Fjalekalimi</value>
+  </data>
+  <data name="Pastro" xml:space="preserve">
+    <value>Pastro</value>
+  </data>
+  <data name="Rruga" xml:space="preserve">
+    <value>Rruga</value>
+  </data>
+  <data name="Shtegu" xml:space="preserve">
+    <value>Shtegu:</value>
+  </data>
+  <data name="Shteti" xml:space="preserve">
+    <value>Shteti</value>
+  </data>
+  <data name="sqarime" xml:space="preserve">
+    <value>Sqarime</value>
+  </data>
+  <data name="Subjekt" xml:space="preserve">
+    <value>Subjekti:</value>
+  </data>
+  <data name="tlsMbyll" xml:space="preserve">
+    <value>Mbyll</value>
+  </data>
+  <data name="tsdndryshoPrapavijen" xml:space="preserve">
+    <value>Ndrysho Prapavijen</value>
+  </data>
+  <data name="tsdOpsione" xml:space="preserve">
+    <value>Opsione</value>
+  </data>
+  <data name="tstAnglisht" xml:space="preserve">
+    <value>Anglisht</value>
+  </data>
+  <data name="tstGjuha" xml:space="preserve">
+    <value>Gjuha</value>
+  </data>
+  <data name="tstInfo" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="tstKohaAktuale" xml:space="preserve">
+    <value>Koha Aktuale:</value>
+  </data>
+  <data name="tstNdihma" xml:space="preserve">
+    <value>Ndihma</value>
+  </data>
+  <data name="tstNdihma_Kontakto" xml:space="preserve">
+    <value>Kontakto</value>
+  </data>
+  <data name="tstNdihma_Ndihma" xml:space="preserve">
+    <value>Ndihma</value>
+  </data>
+  <data name="tstNdihma_Rrethnesh" xml:space="preserve">
+    <value>Rreth nesh</value>
+  </data>
+  <data name="tstShqip" xml:space="preserve">
+    <value>Shqip</value>
+  </data>
+  <data name="tstStatistika" xml:space="preserve">
+    <value>Statistika</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Vendi" xml:space="preserve">
+    <value>Vendi</value>
+  </data>
+  <data name="Profesioni" xml:space="preserve">
+    <value>Profesioni</value>
+  </data>
+</root>
