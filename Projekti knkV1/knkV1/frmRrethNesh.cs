@@ -15,8 +15,6 @@ namespace knkV1
 {
     public partial class frmRrethNesh : Form
     {
-
-        int nr = 1;
         public frmRrethNesh()
         {
             InitializeComponent();
@@ -33,15 +31,13 @@ namespace knkV1
                 this.Text = "Rreth nesh";
             }
         
-            string em = "", mb = "", dt = "", email = "", nrtel = "";
-            if (nr == 1)
-            {
-                em = "Arton";
-                mb = "Hoti";
-                dt = "03.06.1994";
-                email = "arti._3@hotmail.com";
-                nrtel = "045/508-626";
-            }
+            string em = "", mb = "", dt = "", email = "", nrtel = "";            
+            em = "Arton";
+            mb = "Hoti";
+            dt = "03.06.1994";
+            email = "arti._3@hotmail.com";
+            nrtel = "045/508-626";
+            
             lblEmri1.Text = em;
             lblMbiemri1.Text = mb;
             lblDatelindja1.Text = dt;
@@ -83,16 +79,15 @@ namespace knkV1
 
         private void NdrroTeDhenat() {
             string em = "", mb = "", dt = "", email = "", nrtel = "", us="";
-            if (nr == 1)
-            {
-                em = "Arton";
-                mb = "Hoti";
-                dt = "03.06.1994";
-                email = "arti._3@hotmail.com";
-                nrtel = "045/508-626";
-                us = "ah";
-                pbAdmini.BackgroundImage = knkV1.Properties.Resources.ar11;
-            }
+            
+            em = "Arton";
+            mb = "Hoti";
+            dt = "03.06.1994";
+            email = "arti._3@hotmail.com";
+            nrtel = "045/508-626";
+            us = "ah";
+            pbAdmini.BackgroundImage = knkV1.Properties.Resources.ar11;
+
             
             lblEmri1.Text = em;
             lblMbiemri1.Text = mb;
